@@ -1,0 +1,45 @@
+.nav .link {
+    color: rgb(255, 251, 250);
+    text-decoration: none;
+}
+
+#about blockquote{
+    background-color: #bbb3b3;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+span:last-of-type {
+    color: crimson;
+}
+
+#creators a:nth-of-type(odd) {
+    color:white;
+    font-family: "Lato";
+    text-decoration: none;
+}
+
+#creators a:nth-of-type(even) {
+    color: rgb(187, 187, 228);
+    font-family: "PT Serif";
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#cta h2 {
+    font-family: "Lato";
+    color: rgb(248, 241, 243);
+}
+
+ul li:nth-of-type(odd) {
+    text-decoration: underline;
+}
+
+ul li {
+    margin: 5px;
+}
